@@ -12,19 +12,56 @@
         <a href="resume.html">Resume</a>
         <a href="courses.html" class="active">Courses</a>
         <input type="text" placeholder="search..">
-        
-    </div>
-    <div class="search">
-        <h1>search bar</h1>
-    </div>
-
-    <div class="listed-courses">
-        <h2>Listed Courses</h2>
-        <h2>filter by level</h2>
-        <h2>sort by level</h2>
-    </div>
-
-
+    </div>    
     
+    <div class="listed-courses">
+        <h2>Listed Courses</h2>        
+        <table id="table">
+            <tr>
+                <th onclick="sortTable(0)">Code</th>
+                <th onclick="sortTable(1)">Image</th>
+                <th onclick="sortTable(2)">Course title</th>
+                <th onclick="sortTable(3)">Description</th>
+                <th onclick="sortTable(4)">Level</th>
+            </tr>
+            <tr>
+                <td>CST8101Z</td>   
+                <td>image</td>
+                <td>Computer Essentials</td>
+                <td>In this course you will 
+                    learn the essentials of computer software, hardware, 
+                    and laptop management</td>
+                    <td>1</td>
+            </tr>
+            <tr>
+                <td>CST8116Z</td>
+                <td>ima</td>
+                <td>Introduction to Computer Programming</td>
+                <td>Enter the fundamentals of logic, code and problem
+                    solving</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>CST8215Z</td>
+                <td>ima</td>
+                <td>Introduction to Database</td>
+                <td>Fundamentals of relational database</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>CST8300Z</td>
+                <td>ima</td>
+                <td>Achieving Success in Changing Environments</td>
+                <td>Students explore the possibilities ahead, assess
+                     their own aptitudes and strengths, and apply critical
+                      thinking and decision-making tools</td>
+                <td>1</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <script src="/script/script.js"></script>
 </body>
 </html>

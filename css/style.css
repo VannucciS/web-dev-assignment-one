@@ -88,9 +88,15 @@
   }
   table{
     margin: 10px;
+    border: 1px solid black;
     
   }
   td{
-    padding: 10px;
-    
+    padding: 10px;        
+  }
+  tr{
+    border: 1px solid black;
+  }
+  #table tr:nth-child(odd){
+    background-color: gainsboro;
   }
