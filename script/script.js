@@ -59,5 +59,6 @@ function sortTable(n) {
       }
     }
   }
-  /* https://www.codewithfaraz.com/content/22/how-to-sort-html-table-by-header-click-sorting-data-tables#javascript-code
+  /* This code is from the following website
+  https://www.codewithfaraz.com/content/22/how-to-sort-html-table-by-header-click-sorting-data-tables#javascript-code
     */
